@@ -118,3 +118,37 @@ footer .socialmedia {
   display: flex;
   gap: 16px;
 }
+/* Contact Page Additions */
+
+.employee-gallery {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+}
+
+.employee-gallery figure {
+  text-align: center;
+  max-width: 200px;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  max-width: 600px;
+  margin: auto;
+}
+
+.contact-form button {
+  padding: 0.5rem;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #005fa3;
+}
